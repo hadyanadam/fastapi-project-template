@@ -9,6 +9,10 @@ pydantic = {extras = ["dotenv", "email"], version = "*"}
 passlib = {extras = ["bcrypt"], version = "*"}
 sqlalchemy = "*"
 alembic = "*"
+python-jose = "*"
+psycopg2 = "*"
+uvicorn = "*"
+python-multipart = "*"
 
 [dev-packages]
 
