@@ -26,5 +26,5 @@
 ---
 
 
-[FastAPI Website](https://fastapi.tiangolo.com)
-Created by **@hadyanadam**
++ [FastAPI Website](https://fastapi.tiangolo.com)
++ Contributor @hadyanadam
