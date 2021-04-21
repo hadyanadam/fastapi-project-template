@@ -18,3 +18,10 @@ python-multipart = "*"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+dev = "cd ./app & uvicorn main:app --reload"
+db = "docker-compose up -d --build db"
+db-down = "docker-compose down"
+production = "docker-compose up -d --build"
+migrate = "cd ./app & alembic upgrade head"
